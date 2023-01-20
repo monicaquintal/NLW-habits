@@ -359,13 +359,17 @@ nlwSetup.dayExists('31/12') // true or false
 3. new Date().toLocaleDateString('pt-br').slice(0, -5)
 
 a) new Date(): gera a data.
+
 b) .toLocaleDateString('pt-br'): converte para o padrão pt-br.
+
 c) .slice(): define, de trás pra frente, quais caracteres serão recortados (por isso o negativo no 5).
 
 4. localStorage.setItem('NLWSetup@habits', JSON.stringify(nlwSetup.data))
 
 a) localStorage: guarda informações na memória do browser.
+
 b) setItem(): funcionalidade que guarda a informação. Adicionar nome da funcionalidade e valor que queremos guardar.
+
 c) JSON.stringify(nlwSetup.data): função que converte os dados em string para armazenar.
 
 5. JSON.parse(localStorage.getItem('NLWSetup@habits')):
