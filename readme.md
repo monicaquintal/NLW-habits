@@ -38,10 +38,12 @@ Preparação do setup, conhecendo o projeto e entendendo fundamentos para dar os
 1. Introdução à Programação Web
 
 **O que é programar?**
+
 - Codar, Desenvolver, Programar: resolver problemas do mundo real através das linhas de código!
 - Falar com o computador: aprender linguagens para dar ordens ao computador
 
 **Mercado:**
+
 - Vagas: [mais de 790 mil até 2025 - Brasscom](https://brasscom.org.br/estudo-da-brasscom-aponta-demanda-de-797-mil-profissionais-de-tecnologia-ate-2025/)!
 - Global (trabalhar em qualquer lugar do mundo.
 - Tempo de Experiência: cerca de 2 anos.
@@ -51,20 +53,24 @@ Preparação do setup, conhecendo o projeto e entendendo fundamentos para dar os
 Podemos aprender programação em diversas áreas de atuação, como WEB, Mobile, Dados, Inteligência artificial (A.I), Negócios, Analista, Internet das coisas (IoT) e outras!
 
 **Programação WEB:**
+
 - Front-end: parte visual das coisas, a interação com o usuário.
 - Back-end: parte lógica das coisas, as regras de negócio.
 - Fullstack: Front e Back juntos!
 
 **Habilidades:**
+
 - Hard skills: habilidades técnicas e conceitos da área.
 - Soft skills: habilidades comportamentais (comunicação, resolução de problemas, gerenciamento de tempo e tarefas, trabalho em equipe e etc).
 
 **Internet:**
+
 - Rede mundial de computadores.
 - O computadores estão conectados entre si.
 - Transferência de dados.
 
 **Programas e Arquivos:**
+
 - Programa e aplicativos (apps)
     - Navegadores
     - Mensagens
@@ -74,6 +80,7 @@ Podemos aprender programação em diversas áreas de atuação, como WEB, Mobile
     - São interpretados por programas ou apps
 
 **Cliente x Servidor:**
+
 - Cliente: navegador (Browser).
 - Servidor: computador em algum lugar do mundo que tem os códigos.
 - Troca de dados (arquivos):
@@ -81,11 +88,13 @@ Podemos aprender programação em diversas áreas de atuação, como WEB, Mobile
   - Cliente é o front-end, servidor é o back-end!
 
 **Tecnologias Front-end:**
+
 - HTML: linguagem de marcação de texto para estrutura os textos, criar links, imagens, etc.
 - CSS: linguagem de estilo.
 - JavaScript: linguagem de programação que funciona no Navegador.
 
 **Tecnologias Back-end:**
+
 - NodeJS: rodar o JavaScript no computador.
 - SQL: banco de dados para proteger os dados do seu programa.
 
@@ -104,6 +113,7 @@ Trabalhando com HTML e CSS: contexto de box-model, criando header, utilizando fo
 1. HTML:
 
 **O que é HTML?**
+
 - Estruturar textos, criar links, imagens, vídeo, etc.
 - Hypertext Markup Language (Linguagem de marcação de texto).
   - Hypertext: Hipertexto, texto que contém links.
@@ -128,11 +138,13 @@ Adicionam informações e/ou configurações à uma tag.
 2. CSS:
 
 **O que é CSS?**
+
 - Estilos para o HTML
 - Cascading Style Sheets (Folha de Estilo em Cascata).
 - Apresentação visual para o cliente
 
 **Declaração:**
+
 Trecho de código que irá ditar as propriedades e valores a serem aplicadas a um elemento HTML!
     
 ~~~css
@@ -143,6 +155,7 @@ body {
 ~~~
 
 **Cascata**
+
 Quando há 2 (ou mais) declarações a última será mais relevante!
     
 ~~~css
@@ -156,6 +169,7 @@ body {
 ~~~
 
 **Especificidade:**
+
 Cada seletor tem um peso, e a soma dos pesos será levada em conta para que determinada declaração seja mais específica.
     
 ~~~css
@@ -175,6 +189,7 @@ element {
 > A cascata perde prioridade e é priorizada a especificidade da declaração!
 
 **Box Model:** Tudo são caixas!
+
 Todos os elementos HTML serão considerados uma caixa, assim como uma caixa de papelão!
 As Caixas possuem determinadas propriedades: Conteúdo, Largura, Altura, Borda, Preenchimento (espaço interno), Espaçamento (espaço externo)!
     
@@ -188,6 +203,7 @@ Apresentação dos conceitos de Algoritmo e Lógica de Programação, conhecendo
 1. Algoritmos e Lógica de programação
 
 **O que é programar?**
+
 Nada mais é do que ensinar o computador!
 - Algoritmos: Sequência de passos, conjunto de regras.
 - Lógica de programação: Maneira de pensar.
@@ -196,16 +212,19 @@ Nada mais é do que ensinar o computador!
 2. JavaScript - A linguagem da WEB
 
 **O que é?**
+
 - Linguagem de programação, interpretada e executada pelos navegadores.
 - A inteligência da tríade: HTML é a estrutura, CSS é beleza e JS é a inteligência!
 - Não é JAVA - apesar do nome ser semelhante, são linguagens diferentes.
     
 **Por que JS?**
+
 - Aplicativos: para WEB, Desktop (Electron) e Mobile (React Native).
 - Empresas: Instagram, Google, Netflix, TikTok.
 - Moderna e Viva: comunidade e linguagem que crescem cada vez mais.
 
 **Instruções e sintaxe:**
+
 Toda linguagem é escrita com esses 2 princípios
 - Instruções (declarações): Ordens ao computador  
 - Sintaxe: Maneira correta de escrever
@@ -237,6 +256,7 @@ Podemos executar diretamente no Navegador.
 ~~~
 
 **Variáveis e Tipos de dados:**
+
 - Variáveis: uma caixinha onde guardamos um tipo de dado para usar mais tarde.
 - Tipos de dados: informações que podem ser em `textos`, `números`, `booleanos` (valores lógicos: verdadeiro ou falso) ou dados mais `estruturados`!
 
@@ -253,6 +273,7 @@ serHumano = false // Erro!
 ~~~
 
 **Funções:**
+
 - Agrupamento de código
 - Reuso de código
 - Mini programas dentro do programa maior
@@ -269,6 +290,7 @@ function alert(text) {
 ~~~
 
 **Objetos:**
+
 Tudo é objeto!
 - Atributos: são as propriedades de um objeto.
 - Métodos: são as funcionalidades de um objeto.
@@ -286,6 +308,7 @@ celular.ligar() // executa função
 ~~~
 
 **DOM:**
+
 Document Object Model
 É a modelagem dos nossos elementos HTML em Objeto JavaScript!
 
@@ -299,6 +322,7 @@ Posso controlar minha página, meu documento HTML, pelo JavaScript, através do 
 ~~~
 
 ***Biblioteca***
+
 [Documentação da Biblioteca utilizada neste projeto.](https://maykbrito.github.io/libs/NLWSetup/documentation/NLWSetup.html)
 ~~~html
 <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
@@ -306,4 +330,51 @@ Posso controlar minha página, meu documento HTML, pelo JavaScript, através do 
 
 --- 
 
-### Aula 04:
+### Aula 04: Profissionalizando o projeto
+
+1. Método addDay(date)
+
+Adiciona um dia aos dias registrados e renderiza o layout depois disso!
+
+Exemplo:
+
+~~~javascript
+nlwSetup.addDay('31/12')
+~~~
+
+Name |	Type	| Description
+-----|--------|------------
+date	| string	| DD/MM (DD e MM com 02 dígitos)
+
+2. Função dayExists(date) → {boolean}
+
+Verifica se o dia já existe no conjunto de dias.
+
+Exemplo:
+
+~~~javascript
+nlwSetup.dayExists('31/12') // true or false
+~~~
+
+3. new Date().toLocaleDateString('pt-br').slice(0, -5)
+
+a) new Date(): gera a data.
+b) .toLocaleDateString('pt-br'): converte para o padrão pt-br.
+c) .slice(): define, de trás pra frente, quais caracteres serão recortados (por isso o negativo no 5).
+
+4. localStorage.setItem('NLWSetup@habits', JSON.stringify(nlwSetup.data))
+
+a) localStorage: guarda informações na memória do browser.
+b) setItem(): funcionalidade que guarda a informação. Adicionar nome da funcionalidade e valor que queremos guardar.
+c) JSON.stringify(nlwSetup.data): função que converte os dados em string para armazenar.
+
+5. JSON.parse(localStorage.getItem('NLWSetup@habits')):
+
+- converte a data novamente para valor, localiza no localStorage se há informações registradas na chave (que está entre parênteses).
+- nlwSetup.setData(data) e nlwSetup.load() finalizam essa etapa.
+
+[Documentação da Biblioteca utilizada neste projeto.](https://maykbrito.github.io/libs/NLWSetup/documentation/NLWSetup.html)
+
+--- 
+
+### Aula 05: 
