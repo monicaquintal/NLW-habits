@@ -12,7 +12,7 @@ Desenvolvimento de Tracker Habits - NLW (evento promovido pela Rocketseat). <br/
 <br>
 
 <p align="center">
-  <img alt="projeto Habits" src="./assets/capa.jpg" style="border-radius: 40px" width="80%">
+  <img alt="projeto Habits" src="./assets/capa.jpg" width="80%">
 </p>
 
 ## 🚀 Tecnologias
@@ -381,4 +381,24 @@ c) JSON.stringify(nlwSetup.data): função que converte os dados em string para 
 
 --- 
 
-### Aula 05: 
+### Aula 05: O próximo nível
+
+A) Git:
+
+- controle de versão;
+- é uma linha do tempo (histórico do projeto).
+- conceitos básicos:
+  - Repository: local onde ficará o histórico do projeto;
+  - Branch: linha do tempo;
+  - Commit: pontos na história;
+  - Stage: preparação do que será enviado para o ponto na história.
+- comandos principais:
+  - git init = inicia o git (repositório) no projeto;
+  - git add . = adiciona todos os arquivos modificados ao stage;
+  - git commit -m "message here" = cria e descreve um ponto na história;
+  - git push = envia as alterações para o repositório remoto.
+
+B) GitHub:
+- plataforma online para colocar seus códigos (através do git);
+- permite trabalhar em diversos projetos (colaborar em projetos, trabalhar com times e etc);
+- perfil para mostrar seu trabalho (portfólio).
